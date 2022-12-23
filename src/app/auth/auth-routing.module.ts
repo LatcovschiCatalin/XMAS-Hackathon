@@ -1,15 +1,23 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
+import {AuthComponent} from "./auth.component";
 
-const routes: Routes = [
+export const routes: Routes = [
   {
-    path: 'register',
-    loadChildren: () => import('./register/register.module').then(m => m.RegisterModule)
+    path: '',
+    component: AuthComponent,
+    children: [
+      {
+        path: 'login',
+        loadChildren: () => import('./login/login.module').then(m => m.LoginModule),
+      },
+      {
+        path: 'register',
+        loadChildren: () => import('./register/register.module').then(m => m.RegisterModule),
+      }
+    ]
   },
-  {
-    path: 'auth',
-    loadChildren: () => import('./login/login.module').then(m => m.LoginModule)
-  },
+
 ];
 
 @NgModule({
