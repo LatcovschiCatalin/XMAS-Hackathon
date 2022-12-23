@@ -1,0 +1,14 @@
+<div id="works">
+<div class="content">
+  <div class="title"><p>Masterpieces</p></div>
+<ngx-slick-carousel class="carousel"
+                    #slickModal="slick-carousel"
+                    [config]="slideConfig">
+  <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <img src="{{ slide.img }}" alt="">
+  </div>
+</ngx-slick-carousel>
+  <button class="btn-next" (click)="next()">→</button>
+  <button class="btn-prev" (click)="prev()">←</button>
+  </div>
+</div>

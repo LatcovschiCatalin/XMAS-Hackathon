@@ -1,0 +1,59 @@
+@media only screen and (max-width: 767px) {
+  .btn-prev, .btn-next{
+    display: none;
+  }
+  .title{
+    font-size: 48px;
+  }
+}
+  .title{
+  text-align: center;
+  font-family: Rouge Script, sans-serif;
+  font-size: 64px;
+  line-height: 75px;
+  padding-bottom: 50px;
+  color: #33A00C !important;
+}
+img{
+  height: 228px;
+  width: calc(100% - 50px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+#works{
+  width: 100%;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+.btn-prev{
+  float: left;
+  margin-left: -35px;
+}
+.btn-next{
+  float: right;
+  margin-right: -35px;
+}
+button{
+  font-family: "slick", sans-serif;
+  background-color: white;
+  margin-top: -112px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 1;
+  color: black;
+  opacity: 0.75;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+.button{
+  margin-top: -124px;
+}
+
+.content{
+  width: 75%;
+  margin: auto;
+}
