@@ -11,18 +11,20 @@ import {Exhibitions} from "./shared/exhibitions/exhibitions";
 import {ProfileComponent} from './shared/profile/profile.component';
 import {WorksComponent} from "./shared/works/works.component";
 import {SlickCarouselModule} from "ngx-slick-carousel";
+import {PortofolioComponent} from "./shared/portofolio/portofolio.component";
 
 
 @NgModule({
-  declarations: [
-    ArtComponent,
-    MainComponent,
-    FetchJsonPipe,
-    NavComponent,
-    Exhibitions,
-    ProfileComponent,
-    WorksComponent,
-  ],
+    declarations: [
+        ArtComponent,
+        MainComponent,
+        FetchJsonPipe,
+        NavComponent,
+        Exhibitions,
+        ProfileComponent,
+        WorksComponent,
+        PortofolioComponent,
+    ],
   imports: [
     CommonModule,
     ArtRoutingModule,

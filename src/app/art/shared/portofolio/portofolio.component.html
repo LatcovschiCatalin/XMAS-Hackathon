@@ -1,0 +1,28 @@
+<div id="portfolio">
+  <img src="assets/images/photo-bg.png" class="background-2">
+  <div class="content">
+  <div *ngFor="let item of ('assets/package.json' | fetch) ">
+  <div class="title">
+    <p>{{item.portfolio.title}}</p>
+  </div>
+  <div class="row-1">
+    <div class="column" style=" background-image: url('assets/images/portfolio1.jpeg');">
+    </div>
+    <div class="column-1" style="background-image: url('assets/images/portfolio2.jpeg'); padding-right: 15px"></div>
+    <div class="column-1" style="background-image: url('assets/images/portfolio3.jpeg');   padding-right: 15px;
+"></div>
+
+
+  </div>
+    <div class="row-2">
+      <div class="column-2" style="background-image: url('assets/images/portfolio4.jpeg');   padding-right: 15px;
+"></div>
+      <div class="column-2" style="background-image: url('assets/images/portfolio5.jpeg');   padding-right: 15px;
+"></div>
+      <div class="column-2" style="background-image: url('assets/images/portfolio6.jpeg');   padding-right: 15px;
+"></div>
+
+    </div>
+  </div>
+</div>
+</div>

@@ -1,58 +1,58 @@
 [
   {
-    "main" :
-      {
-        "elements" : [
-          {
-            "img": "assets/images/messenger.png",
-            "href": "https://www.messenger.com/t/100806211774305"
-          },
-          {
-            "img": "assets/images/logo.png"
-          },
-          {
-            "text": {
-              "a": {
-                "p": "Peter",
-                "img": "assets/images/instagram.png"
-              },
-              "b": {
-                "p": "Peter",
-                "img": "assets/images/facebook.png"
-              },
-              "c": {
-                "p": "Kolna",
-                "img": "assets/images/map.png"
-              },
-              "d": {
-                "img": "assets/images/ro.png"
-              }
-            }
+    "main": {
+      "elements": [
+        {
+          "img": "assets/images/messenger.png",
+          "href": "https://www.messenger.com/"
+        },
+        {
+          "img": "assets/images/logo.png"
+        },
+        {
+          "text": {
+            "a": {
+              "p": "Petersartisticjourney",
+              "img": "assets/images/instagram.png"
             },
-          {
-            "img1": "assets/images/hamburger.png",
-            "img2": "https://www.hccs.edu/media/hcc-redesign/style-assets/images/img/close.png"
+            "b": {
+              "p": "Peter Facebook",
+              "img": "assets/images/facebook.png"
+            },
+            "c": {
+              "p": "Kolna",
+              "img": "assets/images/map.png"
+            }
           }
-        ]
-      },
+        },
+        {
+          "img1": "assets/images/hamburger.png",
+          "img2": "https://www.hccs.edu/media/hcc-redesign/style-assets/images/img/close.png"
+        }
+      ]
+    },
     "base": {
       "elements": {
         "menu": {
-          "a": "serviciile noastre",
-          "b": "plimbari in natura",
-          "c": "fotosesii",
-          "d": "abonamente",
-          "e": "promotii",
-          "f": "contacte"
+          "a": "User Profile",
+          "b": "Exhibitions",
+          "c": "Masterpieces",
+          "d": "Portfolio",
+          "e": "abonamente",
+          "f": "promotii",
+          "g": "contacte"
         }
       }
     },
     "services": {
-      "title": "serviciile nostre",
+      "title": "Exhibitions",
       "img": "assets/images/services-bg.png"
-  },
-    "fotosesii" : {
-      "title": "fotosesii"
+    },
+    "profile": {
+      "title": "User Profile"
+    },
+    "portfolio": {
+      "title": "Portfolio"
     },
     "subscriptions": [
       {
@@ -64,15 +64,15 @@
           "c": "-Ziua si ora le alegem impreuna la achizitionarea abonamentului"
         }
       },
-        {
-          "title": "KID",
-          "price": "1000 lei",
-          "info": {
-            "a": "-4 ore de calarit pentru copii",
-            "b": "-Lectii despre interactiune si comportament cu caii",
-            "c": "-Antrenamente si reguli de securitate"
-          }
-          },
+      {
+        "title": "KID",
+        "price": "1000 lei",
+        "info": {
+          "a": "-4 ore de calarit pentru copii",
+          "b": "-Lectii despre interactiune si comportament cu caii",
+          "c": "-Antrenamente si reguli de securitate"
+        }
+      },
       {
         "title": "PRO",
         "price": "900 lei",
@@ -82,7 +82,7 @@
         }
       },
       {
-       "title" : "abonamente"
+        "title": "abonamente"
       }
     ],
     "promotion": [
@@ -101,7 +101,7 @@
       }
     ],
     "contacts": {
-     "title": "contacte",
+      "title": "contacte",
       "inputs": {
         "title": "Pentru a brona o vizita, te rugam sa completezi formularul",
         "name": "Numele, Prenumele",
@@ -130,5 +130,5 @@
       "img3": "assets/images/instagram.png",
       "img4": "assets/images/facebook.png"
     }
-    }
+  }
 ]
