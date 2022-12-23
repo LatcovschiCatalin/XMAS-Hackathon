@@ -32,9 +32,9 @@
 }
 
 @media only screen and (min-width: 767px) {
-  #menu1, #menu2, #menu3, #menu4, .img-change {
-    position: absolute;
-  }
+  /*#menu1, #menu2, #menu3, #menu4, .img-change {*/
+  /*  position: absolute;*/
+  /*}*/
 }
 
 @media only screen and (max-width: 767px) {
@@ -148,26 +148,31 @@
 }
 
 .element {
-  right: 64px;
+  font-size: 36px;
   position: fixed;
-  top: 140px;
-  text-align: end;
-  font-size: 22px;
+  right: 20px;
+  top: 150px;
   font-family: Rouge Script, sans-serif;
 }
 
 #menu1, #menu2, #menu3, #menu4 {
-  right: 12px;
-  position: fixed;
   box-sizing: initial;
-  margin-top: 122px;
-  height: 32px;
-  padding: 2px;
-  border-radius: 5px;
+  height: 40px;
   z-index: 10000;
+  padding: 15px 10px;
+}
+
+.el {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
 }
 
 p {
-  padding-bottom: 20px;
   color: whitesmoke;
+}
+
+.el img{
+  margin-left: 20px;
 }

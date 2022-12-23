@@ -1,0 +1,19 @@
+
+<div class="navbar">
+  <div class="logo">
+    <img src="assets/images/logo.png">
+    <div class="app_name">Artistic Avenue</div>
+  </div>
+
+  <div class="links">
+    <div *ngFor="let item of ('assets/package.json' | fetch) ">
+      <a href="#exhibitions">{{item.base.elements.menu.b}}</a>
+<!--      <a href="#walks">{{item.base.elements.menu.b}}</a>-->
+<!--      <a href="#fotosesii">{{item.base.elements.menu.c}}</a>-->
+<!--      <a href="#subscriptions">{{item.base.elements.menu.d}}</a>-->
+<!--      <a href="#promotion">{{item.base.elements.menu.e}}</a>-->
+<!--      <a href="#contact">{{item.base.elements.menu.f}}</a>-->
+    </div>
+  </div>
+</div>
+

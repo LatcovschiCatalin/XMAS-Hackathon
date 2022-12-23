@@ -1,0 +1,27 @@
+<div class="services">
+  <div class="base">
+
+    <div class="title-1" id="exhibitions">
+      <div *ngFor="let item of ('assets/package.json' | fetch) ">
+        <img src="{{item.services.img}}" class="background" alt="">
+        <div class="title"><p>{{item.services.title}}</p></div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div *ngFor="let item of items; let i = index" class="service">
+        <div class="column">
+          <div class="exhibitions"><img src="{{item.img}}" alt=""></div>
+          <div class="info">
+            <div *ngIf="show && i == index" class="text">{{item.text}}</div>
+            <div *ngIf="i != index || !show" class="title-2">{{item.title}}</div>
+            <p (click)="showText(i)" class="more">{{show && i == index ? item.less : item.more}}</p>
+            <p class="size">{{item.size}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
