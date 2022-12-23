@@ -13,6 +13,7 @@ import {WorksComponent} from "./shared/works/works.component";
 import {SlickCarouselModule} from "ngx-slick-carousel";
 import {PortofolioComponent} from "./shared/portofolio/portofolio.component";
 import {FooterComponent} from "./shared/footer/footer.component";
+import {AuthorComponent} from "./shared/author/author.component";
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import {FooterComponent} from "./shared/footer/footer.component";
     WorksComponent,
     PortofolioComponent,
     FooterComponent,
+    AuthorComponent,
   ],
   imports: [
     CommonModule,

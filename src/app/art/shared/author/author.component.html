@@ -1,0 +1,19 @@
+<div class="authors">
+  <div class="container">
+    <ngx-slick-carousel class="carousel"
+                        #slickModal="slick-carousel"
+                        [config]="slideConfig1"
+                        [config]="slideConfig2"
+    >
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <div class="elements">
+          <img src="{{ slide.img }}" class="author">
+          <h1 style="margin-top: 10px">{{slide.name}}</h1>
+          <div class="quote">{{slide.quote}}</div>
+        </div>
+      </div>
+    </ngx-slick-carousel>
+    <button class="btn-next" (click)="next()">→</button>
+    <button class="btn-prev" (click)="prev()">←</button>
+  </div>
+</div>
