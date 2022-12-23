@@ -1,0 +1,134 @@
+[
+  {
+    "main" :
+      {
+        "elements" : [
+          {
+            "img": "assets/images/messenger.png",
+            "href": "https://www.messenger.com/t/100806211774305"
+          },
+          {
+            "img": "assets/images/logo.png"
+          },
+          {
+            "text": {
+              "a": {
+                "p": "Peter",
+                "img": "assets/images/instagram.png"
+              },
+              "b": {
+                "p": "Peter",
+                "img": "assets/images/facebook.png"
+              },
+              "c": {
+                "p": "Kolna",
+                "img": "assets/images/map.png"
+              },
+              "d": {
+                "img": "assets/images/ro.png"
+              }
+            }
+            },
+          {
+            "img1": "assets/images/hamburger.png",
+            "img2": "https://www.hccs.edu/media/hcc-redesign/style-assets/images/img/close.png"
+          }
+        ]
+      },
+    "base": {
+      "elements": {
+        "menu": {
+          "a": "serviciile noastre",
+          "b": "plimbari in natura",
+          "c": "fotosesii",
+          "d": "abonamente",
+          "e": "promotii",
+          "f": "contacte"
+        }
+      }
+    },
+    "services": {
+      "title": "serviciile nostre",
+      "img": "assets/images/services-bg.png"
+  },
+    "fotosesii" : {
+      "title": "fotosesii"
+    },
+    "subscriptions": [
+      {
+        "title": "ECO",
+        "price": "800 lei",
+        "info": {
+          "a": "-4 ore de calarit in natura",
+          "b": "-Orar flexibil",
+          "c": "-Ziua si ora le alegem impreuna la achizitionarea abonamentului"
+        }
+      },
+        {
+          "title": "KID",
+          "price": "1000 lei",
+          "info": {
+            "a": "-4 ore de calarit pentru copii",
+            "b": "-Lectii despre interactiune si comportament cu caii",
+            "c": "-Antrenamente si reguli de securitate"
+          }
+          },
+      {
+        "title": "PRO",
+        "price": "900 lei",
+        "info": {
+          "a": "-4 ore de echitatie",
+          "b": "-Lectii de echitatie, securitate si comportament cu calul"
+        }
+      },
+      {
+       "title" : "abonamente"
+      }
+    ],
+    "promotion": [
+      {
+        "title": "promotii"
+      },
+      {
+        "img": "assets/images/clock.png",
+        "name": "Activ pana pe 14 august 2020",
+        "info": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut"
+      },
+      {
+        "img": "assets/images/clock.png",
+        "name": "Activ pana pe 14 august 2020",
+        "info": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut"
+      }
+    ],
+    "contacts": {
+     "title": "contacte",
+      "inputs": {
+        "title": "Pentru a brona o vizita, te rugam sa completezi formularul",
+        "name": "Numele, Prenumele",
+        "number": "Telefon",
+        "email": "Adresa de email",
+        "message": "Lasa-ne un mesaj!",
+        "button": "Trimite"
+      },
+      "dates": {
+        "name": "Contacteaza-ne la:",
+        "phone": {
+          "img": "assets/images/phone.png",
+          "number": "69373556"
+        },
+        "mail": {
+          "img": "assets/images/mail.png",
+          "email": "test@gmail.com"
+        }
+      },
+      "thanks": "Va multumim ca sunteti alaturi de noi pentru a crea impreuna momente frumoase, iar noi suntem alaturi de voi pentru a va oferi o calatorie de neuitat!"
+    },
+    "footer": {
+      "img1": "assets/images/logo.png",
+      "img2": "assets/images/ro.png",
+      "number": "69373556",
+      "img3": "assets/images/instagram.png",
+      "img4": "assets/images/facebook.png"
+    }
+    }
+]

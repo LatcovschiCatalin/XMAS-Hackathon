@@ -1,0 +1,49 @@
+<div class="hamburger-menu">
+  <div class="links">
+    <div *ngFor="let item of ('assets/package.json' | fetch) ">
+      <div *ngIf="condition" class="hamburger-active">
+        <div class="menu-items">
+          <a href="#services">{{item.base.elements.menu.a}}</a>
+          <a href="#walks">{{item.base.elements.menu.b}}</a>
+          <a href="#fotosesii">{{item.base.elements.menu.c}}</a>
+          <a href="#subscriptions">{{item.base.elements.menu.d}}</a>
+          <a href="#promotion">{{item.base.elements.menu.e}}</a>
+          <a href="#contact">{{item.base.elements.menu.f}}</a>
+          <a href=""><img src="{{item.main.elements[2].text.d.img}}" id="menu" alt="" class="language"></a>
+        </div>
+      </div>
+      <img (click)="condition = !condition" class="img-change"
+           src="{{!condition ? item.main.elements[3].img1 : item.main.elements[3].img2}}">
+    </div>
+  </div>
+
+</div>
+<div *ngFor="let item of ('assets/package.json' | fetch) ">
+  <div class="main">
+    <a href="https://www.messenger.com/t/100806211774305"><img src="{{item.main.elements[0].img}}" id="mes" alt=""></a>
+    <div class="logo">
+      <img src="{{item.main.elements[1].img}}" id="img-2" alt="">
+      <p>Artistic Avenue</p>
+    </div>
+    <p class="menu">
+    <div class="element">
+    <div class="el">
+    </div>
+      <p id="menu-1">{{item.main.elements[2].text.a.p}}</p>
+      <p id="menu-2">{{item.main.elements[2].text.b.p}}</p>
+      <p id="menu-3">{{item.main.elements[2].text.c.p}}</p>
+    </div>
+    <img src="{{item.main.elements[2].text.a.img}}" id="menu1" alt="">
+    <br><br><br>
+    <img src="{{item.main.elements[2].text.b.img}}" id="menu2" alt="">
+    <br><br><br>
+    <a href="#all"><img src="{{item.main.elements[2].text.c.img}}" id="menu3" alt=""></a>
+    <br><br><br>
+    <img src="{{item.main.elements[2].text.d.img}}" id="menu4" alt="">
+  </div>
+
+
+
+
+
+

@@ -8,6 +8,10 @@ export const routes: Routes = [
     loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule),
   },
   {
+    path: '',
+    loadChildren: () => import('./art/art.module').then(m => m.ArtModule),
+  },
+  {
     path: '**',
     redirectTo: '/'
   }

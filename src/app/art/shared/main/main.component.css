@@ -1,0 +1,173 @@
+@media only screen and (min-width: 991px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  #mes {
+    width: 100px;
+    height: 100px;
+  }
+
+  #img-2 {
+    width: 200px;
+    height: 200px
+  }
+}
+
+#img-2 {
+  left: 30px;
+  top: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  #img-2 {
+    width: 170px;
+    height: 170px
+  }
+
+  #mes {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  #menu1, #menu2, #menu3, #menu4, .img-change {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #img-2 {
+    width: 130px;
+    height: 130px
+  }
+
+  .element {
+    display: none;
+  }
+
+  .img-change {
+    margin-top: 45px;
+  }
+
+  #menu1, #menu2, #menu3, #menu4, .img-change {
+    position: fixed;
+  }
+}
+
+.hamburger-menu {
+  width: 100%;
+  background-color: #FF0000;
+}
+
+.img-change {
+  position: fixed;
+  top: 30px;
+  right: 21px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  z-index: 100000;
+}
+
+.hamburger-active {
+  position: fixed;
+  background-color: gray;
+  display: flex;
+  z-index: 100000;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.menu-items {
+  z-index: 100000;
+  display: grid;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items a {
+  text-decoration: none;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.menu-items a {
+  color: white;
+  font-family: Rouge Script, sans-serif;
+  font-size: 32px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.menu-items a:hover {
+  text-decoration: underline;
+}
+
+
+.main {
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  background-image: url("https://www.viewbug.com/media/mediafiles/2017/08/21/74599414_large1300.jpg");
+  background-position: left;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  margin-top: auto;
+  padding: 75px;
+  z-index: 100;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Rouge Script, sans-serif;
+  font-size: 60px;
+}
+
+#mes {
+  box-sizing: initial;
+  position: fixed;
+  z-index: 10000;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+}
+
+.element {
+  right: 64px;
+  position: fixed;
+  top: 140px;
+  text-align: end;
+  font-size: 22px;
+  font-family: Rouge Script, sans-serif;
+}
+
+#menu1, #menu2, #menu3, #menu4 {
+  right: 12px;
+  position: fixed;
+  box-sizing: initial;
+  margin-top: 122px;
+  height: 32px;
+  padding: 2px;
+  border-radius: 5px;
+  z-index: 10000;
+}
+
+p {
+  padding-bottom: 20px;
+  color: whitesmoke;
+}
