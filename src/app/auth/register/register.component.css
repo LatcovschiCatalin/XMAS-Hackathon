@@ -1,0 +1,50 @@
+.form-field input {
+  outline: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 15px;
+  border: 1px solid #45A29E;
+  width: calc(100% - 24px);
+  background: #1F2833;
+  font-style: normal;
+  color: whitesmoke;
+}
+
+input::placeholder{
+  color: whitesmoke;
+}
+
+.form-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  outline: none;
+  font-size: 18px;
+  color: whitesmoke;
+  background: #1F2833;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+  border: 1px solid #45A29E;
+  font-style: normal;
+}
+
+
+.sign_in{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.sign_in a{
+  margin-top: 15px;
+  color: deepskyblue;
+  text-decoration: none;
+}

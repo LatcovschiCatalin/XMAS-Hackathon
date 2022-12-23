@@ -1,1 +1,28 @@
-<p>register works!</p>
+<div class="login-container">
+  <form [formGroup]="form" class="login-form">
+    <div class="form-fields">
+      <div class="form-field">
+        <input name="name" formControlName="name" placeholder="Full name" />
+      </div>
+      <div class="form-field">
+        <input name="email" formControlName="email" placeholder="Email" />
+      </div>
+      <div class="form-field">
+        <input
+          name="password"
+          formControlName="password"
+          type="password"
+          placeholder="Password"
+        />
+      </div>
+    </div>
+
+    <div class="form-buttons">
+      <button class="button button-primary" (click)="register()">Register</button>
+    </div>
+  </form>
+  <div class="sign_in">
+    Do you have an account?<br>
+    <a [routerLink]="'/auth/login'">Sign in</a>
+  </div>
+</div>

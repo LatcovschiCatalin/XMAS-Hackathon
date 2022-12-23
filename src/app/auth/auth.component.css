@@ -1,3 +1,65 @@
-.auth{
 
+.auth {
+  background: #0B0C10;
+  height: 100vh;
+  position: fixed;
+  padding: 100px 150px;
+  color: whitesmoke;
+}
+
+.auth-container {
+  background: #1F2833;
+  border-radius: 10px;
+  display: flex;
+  align-items: start;
+}
+
+.left-auth {
+  position: relative;
+  width: 50%;
+  padding: 75px;
+  height: calc(100vh - 300px);
+  background: url('src/assets/log_in.png') no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-auth {
+  padding: 50px;
+  width: calc(50% - 100px);
+}
+
+.title {
+  font-size: 24px;
+  color: #66FCF1;
+}
+
+.slogan {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-top: 135px;
+}
+
+.intro {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.text {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+button {
+  outline: none;
+  font-size: 18px;
+  color: whitesmoke;
+  background: #1F2833;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+  border: 1px solid #45A29E;
+  font-style: normal;
 }
