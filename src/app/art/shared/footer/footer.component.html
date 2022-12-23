@@ -1,0 +1,16 @@
+<div class="footer">
+<div class="container">
+  <div *ngFor="let item of ('assets/package.json' | fetch) " class="footer-items">
+    <div class="left-footer">
+  <img src="{{item.footer.img1}}" style="width: 120px; height: 120px">
+    </div>
+    <div class="center-footer">
+    <a href="">{{item.footer.number}}</a>
+    </div>
+    <div class="right-footer">
+      <a href="instagram"><img src="{{item.footer.img3}}" style="padding-right: 25px"></a>
+      <a href="facebook"><img src="{{item.footer.img4}}"></a>
+    </div>
+  </div>
+  </div>
+  </div>

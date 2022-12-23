@@ -12,19 +12,21 @@ import {ProfileComponent} from './shared/profile/profile.component';
 import {WorksComponent} from "./shared/works/works.component";
 import {SlickCarouselModule} from "ngx-slick-carousel";
 import {PortofolioComponent} from "./shared/portofolio/portofolio.component";
+import {FooterComponent} from "./shared/footer/footer.component";
 
 
 @NgModule({
-    declarations: [
-        ArtComponent,
-        MainComponent,
-        FetchJsonPipe,
-        NavComponent,
-        Exhibitions,
-        ProfileComponent,
-        WorksComponent,
-        PortofolioComponent,
-    ],
+  declarations: [
+    ArtComponent,
+    MainComponent,
+    FetchJsonPipe,
+    NavComponent,
+    Exhibitions,
+    ProfileComponent,
+    WorksComponent,
+    PortofolioComponent,
+    FooterComponent,
+  ],
   imports: [
     CommonModule,
     ArtRoutingModule,
