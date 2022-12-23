@@ -6,7 +6,8 @@
   </div>
 
   <div class="links">
-    <div *ngFor="let item of ('assets/package.json' | fetch) ">
+    <div *ngFor="let item of ('assets/package.json' | fetch) ">\
+      <a href="#profile">{{item.base.elements.menu.a}}</a>
       <a href="#exhibitions">{{item.base.elements.menu.b}}</a>
 <!--      <a href="#walks">{{item.base.elements.menu.b}}</a>-->
 <!--      <a href="#fotosesii">{{item.base.elements.menu.c}}</a>-->

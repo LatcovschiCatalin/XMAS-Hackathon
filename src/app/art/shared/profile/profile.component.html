@@ -1,0 +1,22 @@
+<div class="profile">
+  <div class="title-1" id="profile">
+    <div *ngFor="let item of ('assets/package.json' | fetch) ">
+      <div class="title"><p>{{item.profile.title}}</p></div>
+    </div>
+  </div>
+  <div class="user-profile">
+    <div class="profile-img">
+      <img src="assets/images/peter.png">
+      <div class="details">
+        Peter | 54 | Painter, Art restorer
+      </div>
+    </div>
+    <div class="profile-description">
+      I am an emotional person who loves attention and cares
+      about other people’s opinion. My passion regarding art makes
+      me to aspire for more. I work in this field for 35 years
+      doing different commissioned works. I would want to start a new style in art and to extend my connections in art
+      community.
+    </div>
+  </div>
+</div>

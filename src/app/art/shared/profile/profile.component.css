@@ -1,0 +1,40 @@
+
+.title-1 {
+  text-align: center;
+  font-family: Rouge Script, sans-serif;
+  font-size: 64px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  color: #33A00C !important;
+}
+
+.profile {
+  z-index: 10000;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 100px;
+  width: calc(100% - 150px);
+  max-width: 1400px;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  box-shadow: -4px 11px 16px #0b0c10;
+}
+
+.user-profile .profile-description {
+  margin-left: 50px;
+  font-family: Rouge Script, sans-serif;
+  font-size: 36px;
+}
+
+.details {
+  font-family: Rouge Script, sans-serif;
+  font-size: 36px;
+  margin-top: 20px;
+  text-align: center;
+}
