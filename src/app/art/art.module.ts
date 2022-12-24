@@ -16,6 +16,7 @@ import {FooterComponent} from "./shared/footer/footer.component";
 import {AuthorComponent} from "./shared/author/author.component";
 import {ActionsComponent} from "./shared/actions/actions.component";
 import {FeedbackComponent} from "./shared/feedback/feedback.component";
+import {SendReviewComponent} from "./shared/send-review/send-review.component";
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import {FeedbackComponent} from "./shared/feedback/feedback.component";
     AuthorComponent,
     ActionsComponent,
     FeedbackComponent,
+    SendReviewComponent,
   ],
   imports: [
     CommonModule,

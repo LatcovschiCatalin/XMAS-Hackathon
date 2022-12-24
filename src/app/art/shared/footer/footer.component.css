@@ -40,6 +40,10 @@
   z-index: 1000;
 }
 
+a {
+  text-decoration: none;
+}
+
 .footer-items {
   display: flex;
   align-items: center;

@@ -1,0 +1,32 @@
+
+<div id="review">
+<div class="container">
+  <div *ngFor="let item of ('assets/package.json' | fetch) ">
+<p class="title">{{item.review.title}}</p>
+    <form>
+      <p class="mess">{{item.review.inputs.title}}</p>
+      <input id="name" type="text" placeholder="{{item.review.inputs.name}}">
+      <input id="number" type="text" placeholder="{{item.review.inputs.number}}" >
+      <input id="email" placeholder="{{item.review.inputs.email}}" type="email">
+      <textarea id="message" placeholder="{{item.review.inputs.message}}"></textarea>
+      <button class="button" (click)="condition = !condition">{{item.review.inputs.button}}</button>
+    </form>
+    <h1>{{item.review.dates.name}}</h1>
+    <div class="my-contacts">
+    <div class="phone">
+      <img src="{{item.review.dates.phone.img}}">
+      <a href="">{{item.review.dates.phone.number}}</a>
+    </div>
+
+    <div class="mail">
+      <img src="{{item.review.dates.mail.img}}">
+      <a href="">{{item.review.dates.mail.email}}</a>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="send-message" *ngIf="!condition">
+  <span>✓</span><p>Your review was sent successfully!</p>
+</div>

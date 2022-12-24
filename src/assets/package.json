@@ -39,8 +39,8 @@
           "c": "Masterpieces",
           "d": "Portfolio",
           "e": "Actions",
-          "f": "Reviews",
-          "g": "contacte"
+          "f": "Feedbacks",
+          "g": "Send review"
         }
       }
     },
@@ -106,28 +106,28 @@
         "info": "The texture in this painting is really impressive. It adds so much depth and dimension to the image."
       }
     ],
-    "contacts": {
-      "title": "contacte",
+    "review": {
+      "title": "Send Review",
       "inputs": {
-        "title": "Pentru a brona o vizita, te rugam sa completezi formularul",
-        "name": "Numele, Prenumele",
-        "number": "Telefon",
-        "email": "Adresa de email",
-        "message": "Lasa-ne un mesaj!",
-        "button": "Trimite"
+        "title": "For sending a review, please complete this form!",
+        "name": "Name, Surname",
+        "number": "Phone number",
+        "email": "Your email",
+        "message": "Type your review!",
+        "button": "Submit"
       },
       "dates": {
-        "name": "Contacteaza-ne la:",
+        "name": "Stay in touch with me:",
         "phone": {
           "img": "assets/images/phone.png",
-          "number": "69373556"
+          "number": "+49 (0) 176 533 92887"
         },
         "mail": {
           "img": "assets/images/mail.png",
-          "email": "test@gmail.com"
+          "email": "peter@artisticdesigns.com"
         }
       },
-      "thanks": "Va multumim ca sunteti alaturi de noi pentru a crea impreuna momente frumoase, iar noi suntem alaturi de voi pentru a va oferi o calatorie de neuitat!"
+      "thanks": "As an artist, I have had the opportunity to work on a variety of projects that have allowed me to grow and develop my skills. One of my most memorable experiences was working on a large-scale mural for a community center. It was a challenging project, as I had to work with a team and coordinate with the center's staff to ensure that the mural met their vision and needs. However, it was also extremely rewarding to see the final product and know that it would bring joy and beauty to the community for years to come."
     },
     "footer": {
       "img1": "assets/images/logo.png",
