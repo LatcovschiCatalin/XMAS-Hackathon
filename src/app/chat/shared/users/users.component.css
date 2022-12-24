@@ -23,6 +23,10 @@
   cursor: pointer;
 }
 
+.active {
+  background: #6785FF;
+}
+
 .name {
   display: flex;
   justify-content: space-between;
@@ -34,7 +38,7 @@
   font-weight: bolder;
 }
 
-.description{
+.description {
   margin-top: 10px;
   line-height: 20px;
 }

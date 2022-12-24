@@ -9,6 +9,7 @@
 .artists-list {
   background: #252837;
   width: 30%;
+  position: fixed;
   height: calc(100vh - 40px);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -17,6 +18,9 @@
 
 .message {
   padding: 10px;
-  width: 80%;
+  width: 65%;
+  margin-left: auto;
   height: 100vh;
+  margin-right: 30px;
+  margin-top: 30px;
 }

@@ -3,23 +3,23 @@
     <input placeholder="Search">
   </div>
   <div class="list">
-       <div class="user" *ngFor="let user of users">
-         <div class="user-img">
-           <img [src]="user.image">
-         </div>
-         <div class="user-description">
-           <div class="name">
-             <div class="user-name">
-               {{user.name}}
-             </div>
-             <div class="date">
-               {{user.last_visit}}
-             </div>
-           </div>
-           <div class="description">{{user.description}}</div>
-           <div class="status" [className]="user.status"></div>
-         </div>
-       </div>
+    <div class="user" *ngFor="let user of users" [ngClass]="user.status == 'active' ? 'active':'inactive'">
+      <div class="user-img">
+        <img [src]="user.image">
+      </div>
+      <div class="user-description">
+        <div class="name">
+          <div class="user-name">
+            {{user.name}}
+          </div>
+          <div class="date">
+            {{user.last_visit}}
+          </div>
+        </div>
+        <div class="description">{{user.description}}</div>
+        <div class="status" [className]="user.status"></div>
+      </div>
+    </div>
   </div>
 </div>
 

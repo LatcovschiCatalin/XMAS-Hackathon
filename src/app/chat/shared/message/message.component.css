@@ -1,0 +1,79 @@
+.contact {
+  padding: 30px;
+  border-radius: 10px;
+  background: #252837;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-left: 20px;
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.actions img {
+  width: 50px;
+  margin: 0 20px;
+}
+
+.actions {
+  display: flex;
+  cursor: pointer;
+}
+
+.send-message {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message-input input {
+  outline: none;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background: #252837;
+  padding: 25px 25px 25px 85px;
+  position: absolute;
+  bottom: 60px;
+  width: 48%;
+}
+
+.send-button img {
+  margin-left: 80px;
+  width: 50px;
+  border-radius: 10px;
+  outline: none;
+  background: #60adfc;
+  border: none;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  right: 70px;
+  bottom: 60px;
+  position: absolute;
+}
+
+.link {
+  width: 40px;
+  position: absolute;
+  bottom: 75px;
+  margin-left: 20px;
+  z-index: 1234;
+  cursor: pointer;
+}
