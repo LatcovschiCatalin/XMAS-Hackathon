@@ -1,0 +1,50 @@
+.users-list {
+  padding: 25px;
+}
+
+.search input {
+  background: #1D1F2B;
+  color: whitesmoke;
+  outline: none;
+  border-radius: 10px;
+  padding: 15px;
+  width: calc(100% - 30px);
+  font-size: 18px;
+  border: none;
+}
+
+.user {
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  background: #303346;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.description{
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.user-img img {
+  width: 70px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.user-description {
+  margin-left: 20px;
+}
