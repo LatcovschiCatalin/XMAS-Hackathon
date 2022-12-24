@@ -1,0 +1,32 @@
+<div id="actions">
+  <img src="assets/images/subscriptions-bg.png" class="background-3">
+  <div class="container">
+    <div *ngFor="let item of ('assets/package.json' | fetch) ">
+      <p class="title">{{item.actions[3].title}}</p>
+      <div class="abonamente">
+        <div class="action" style="border: 4px solid #FF0000;">
+          <img [src]="item.actions[0].img"/>
+          <h2>{{item.actions[0].title}}</h2>
+          <p>{{item.actions[0].info.a}}</p>
+          <p>{{item.actions[0].info.b}}</p>
+          <p>{{item.actions[0].info.c}}</p>
+
+        </div>
+        <div class="action" style="border: 4px solid #F5834E;">
+          <img [src]="item.actions[1].img"/>
+          <h2>{{item.actions[1].title}}</h2>
+          <p>{{item.actions[1].info.a}}</p>
+          <p>{{item.actions[1].info.b}}</p>
+          <p>{{item.actions[1].info.c}}</p>
+        </div>
+        <div class="action" style="border: 4px solid #FFDF5D;">
+          <img [src]="item.actions[2].img"/>
+          <h2>{{item.actions[2].title}}</h2>
+          <p>{{item.actions[2].info.a}}</p>
+          <p>{{item.actions[2].info.b}}</p>
+          <p>{{item.actions[2].info.c}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
