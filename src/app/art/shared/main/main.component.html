@@ -3,13 +3,13 @@
     <div *ngFor="let item of ('assets/package.json' | fetch) ">
       <div *ngIf="condition" class="hamburger-active">
         <div class="menu-items">
-          <a href="#services">{{item.base.elements.menu.a}}</a>
-          <a href="#walks">{{item.base.elements.menu.b}}</a>
-          <a href="#fotosesii">{{item.base.elements.menu.c}}</a>
-          <a href="#subscriptions">{{item.base.elements.menu.d}}</a>
-          <a href="#promotion">{{item.base.elements.menu.e}}</a>
-          <a href="#contact">{{item.base.elements.menu.f}}</a>
-          <a href=""><img src="{{item.main.elements[2].text.d.img}}" id="menu" alt="" class="language"></a>
+          <a href="#profile">{{item.base.elements.menu.a}}</a>
+          <a href="#exhibitions">{{item.base.elements.menu.b}}</a>
+          <a href="#works">{{item.base.elements.menu.c}}</a>
+          <a href="#portfolio">{{item.base.elements.menu.d}}</a>
+          <a href="#actions">{{item.base.elements.menu.e}}</a>
+          <a href="#feedback">{{item.base.elements.menu.f}}</a>
+          <a href="#review">{{item.base.elements.menu.g}}</a>
         </div>
       </div>
       <img (click)="condition = !condition" class="img-change"
@@ -20,7 +20,7 @@
 </div>
 <div *ngFor="let item of ('assets/package.json' | fetch) ">
   <div class="main">
-    <a href="https://www.messenger.com/t/100806211774305"><img src="{{item.main.elements[0].img}}" id="mes" alt=""></a>
+    <a [routerLink]="'auth/login'"><img src="{{item.main.elements[0].img}}" id="mes" alt=""></a>
     <div class="logo">
       <img src="{{item.main.elements[1].img}}" id="img-2" alt="">
       <p>Artistic Avenue</p>
@@ -42,7 +42,7 @@
       <div class="el">
 
         <p id="menu-3">{{item.main.elements[2].text.c.p}}</p>
-        <a href="#all"><img src="{{item.main.elements[2].text.c.img}}" id="menu3" alt=""></a>
+        <a href=""><img src="{{item.main.elements[2].text.c.img}}" id="menu3" alt=""></a>
       </div>
     </div>
   </div>

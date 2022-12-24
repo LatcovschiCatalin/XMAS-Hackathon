@@ -12,6 +12,10 @@ export const routes: Routes = [
     loadChildren: () => import('./art/art.module').then(m => m.ArtModule),
   },
   {
+    path: 'chat',
+    loadChildren: () => import('./chat/chat.module').then(m => m.ChatModule),
+  },
+  {
     path: '**',
     redirectTo: '/'
   }

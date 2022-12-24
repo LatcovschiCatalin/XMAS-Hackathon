@@ -1,0 +1,22 @@
+.chat-container {
+  background: #1D1F2B;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  position: fixed;
+}
+
+.artists-list {
+  background: #252837;
+  width: 25%;
+  height: calc(100vh - 40px);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 20px;
+}
+
+.message {
+  padding: 10px;
+  width: 80%;
+  height: 100vh;
+}

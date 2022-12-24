@@ -24,7 +24,7 @@ export class LoginComponent {
     if (val.email && val.password) {
       console.log('User validate')
       // this.authService.login(val.email, val.password);
-      this.router.navigateByUrl('')
+      this.router.navigateByUrl('/chat')
     } else{
       alert('Please fill all credentials!')
     }
