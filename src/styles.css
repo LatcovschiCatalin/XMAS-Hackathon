@@ -1,31 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~leaflet/dist/leaflet.css";
+
 * {
   margin: 0;
   padding: 0;
   /*font-family: "Segoe UI Semibold", sans-serif;*/
   /*font-style: italic;*/
 }
+
 /* You can add global styles to this file, and also import other style files */
 /*@import "~leaflet/dist/leaflet.css";*/
-html{
+html {
   margin-top: -16px;
 }
-*{
+
+* {
   scroll-behavior: smooth;
 }
-.container{
+
+.container {
   width: 1170px;
 }
-@media only screen and (max-width: 992px){
-  .container{
+
+@media only screen and (max-width: 992px) {
+  .container {
     width: 970px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .container {
     margin-left: 0px;
   }
 }
+
 @media only screen and (max-width: 400px) {
   .container {
     width: 380px;
