@@ -1,0 +1,10 @@
+<div id="all">
+<div class="map">
+<div class="container">
+  <div id="map"></div>
+  <div *ngFor="let item of ('assets/package.json' | fetch) ">
+    <p class="thanks">{{item.review.thanks}}</p>
+  </div>
+</div>
+</div>
+</div>
