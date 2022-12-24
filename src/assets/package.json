@@ -38,8 +38,8 @@
           "b": "Exhibitions",
           "c": "Masterpieces",
           "d": "Portfolio",
-          "e": "abonamente",
-          "f": "promotii",
+          "e": "Actions",
+          "f": "Reviews",
           "g": "contacte"
         }
       }
@@ -54,7 +54,7 @@
     "portfolio": {
       "title": "Portfolio"
     },
-    "subscriptions": [
+    "actions": [
       {
         "title": "ECO",
         "price": "800 lei",
@@ -82,22 +82,27 @@
         }
       },
       {
-        "title": "abonamente"
+        "title": "Actions"
       }
     ],
-    "promotion": [
+    "feedback": [
       {
-        "title": "promotii"
+        "title": "Feedbacks"
       },
       {
         "img": "assets/images/clock.png",
-        "name": "Activ pana pe 14 august 2020",
-        "info": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut"
+        "name": "Adam William",
+        "info": "The brushwork in this painting is just so lively and expressive. It's like the paint is dancing on the canvas."
       },
       {
         "img": "assets/images/clock.png",
-        "name": "Activ pana pe 14 august 2020",
-        "info": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut"
+        "name": "Jennete Smith",
+        "info": "The composition of this painting is really well done. The way the elements are arranged draws the eye around the canvas beautifully."
+      },
+      {
+        "img": "assets/images/clock.png",
+        "name": "Lauren Rance",
+        "info": "The texture in this painting is really impressive. It adds so much depth and dimension to the image."
       }
     ],
     "contacts": {

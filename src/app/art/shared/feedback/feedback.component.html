@@ -1,0 +1,24 @@
+<div id="feedback">
+  <div *ngFor="let item of ('assets/package.json' | fetch) ">
+
+    <div class="container">
+      <p class="title">{{item.feedback[0].title}}</p>
+      <div class="promo-1">
+        <img src="{{item.feedback[1].img}}" class="clock-img">
+        <h1>{{item.feedback[1].name}}</h1>
+        <p>{{item.feedback[1].info}}</p>
+      </div>
+
+      <div class="promo-2">
+        <img src="{{item.feedback[2].img}}" class="clock-img">
+        <h1>{{item.feedback[2].name}}</h1>
+        <p>{{item.feedback[2].info}}</p>
+      </div>
+      <div class="promo-3">
+        <img src="{{item.feedback[3].img}}" class="clock-img">
+        <h1>{{item.feedback[3].name}}</h1>
+        <p>{{item.feedback[3].info}}</p>
+      </div>
+    </div>
+  </div>
+</div>

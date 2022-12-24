@@ -14,6 +14,8 @@ import {SlickCarouselModule} from "ngx-slick-carousel";
 import {PortofolioComponent} from "./shared/portofolio/portofolio.component";
 import {FooterComponent} from "./shared/footer/footer.component";
 import {AuthorComponent} from "./shared/author/author.component";
+import {ActionsComponent} from "./shared/actions/actions.component";
+import {FeedbackComponent} from "./shared/feedback/feedback.component";
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import {AuthorComponent} from "./shared/author/author.component";
     PortofolioComponent,
     FooterComponent,
     AuthorComponent,
+    ActionsComponent,
+    FeedbackComponent,
   ],
   imports: [
     CommonModule,
