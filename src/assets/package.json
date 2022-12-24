@@ -56,29 +56,30 @@
     },
     "actions": [
       {
-        "title": "ECO",
-        "price": "800 lei",
+        "img": "assets/images/action1.jpeg",
+        "title": "Autumn at the Arayu Hot Spring By Hasui Kawase",
         "info": {
-          "a": "-4 ore de calarit in natura",
-          "b": "-Orar flexibil",
-          "c": "-Ziua si ora le alegem impreuna la achizitionarea abonamentului"
+          "a": "-Shinobara (available)",
+          "b": "-Starting price: 1400$",
+          "c": "-Top bidder: --"
         }
       },
       {
-        "title": "KID",
-        "price": "1000 lei",
+        "img": "assets/images/action2.jpeg",
+        "title": "Snow at Ueno By Hasui Kawase",
         "info": {
-          "a": "-4 ore de calarit pentru copii",
-          "b": "-Lectii despre interactiune si comportament cu caii",
-          "c": "-Antrenamente si reguli de securitate"
+          "a": "-Kiuomizudo (available)",
+          "b": "-Starting price: 1200$",
+          "c": "-Top bidder: Markus Persson - 1300$"
         }
       },
       {
-        "title": "PRO",
-        "price": "900 lei",
+        "img": "assets/images/action3.jpeg",
+        "title": "Autumn Leaves By Torii Kotondo",
         "info": {
-          "a": "-4 ore de echitatie",
-          "b": "-Lectii de echitatie, securitate si comportament cu calul"
+          "a": "-Shanghai (available)",
+          "b": "-Starting price: 1500$",
+          "c": "-Top bidder: Kim Jong Un - 1549$"
         }
       },
       {
