@@ -1,0 +1,140 @@
+[
+  {
+    "main": {
+      "elements": [
+        {
+          "img": "assets/images/messenger.png",
+          "href": "https://www.messenger.com/"
+        },
+        {
+          "img": "assets/images/logo.png"
+        },
+        {
+          "text": {
+            "a": {
+              "p": "Petersartisticjourney",
+              "img": "assets/images/instagram.png"
+            },
+            "b": {
+              "p": "Peter Facebook",
+              "img": "assets/images/facebook.png"
+            },
+            "c": {
+              "p": "Koln",
+              "img": "assets/images/map.png"
+            }
+          }
+        },
+        {
+          "img1": "assets/images/hamburger.png",
+          "img2": "https://www.hccs.edu/media/hcc-redesign/style-assets/images/img/close.png"
+        }
+      ]
+    },
+    "base": {
+      "elements": {
+        "menu": {
+          "a": "User Profile",
+          "b": "Exhibitions",
+          "c": "Masterpieces",
+          "d": "Portfolio",
+          "e": "Actions",
+          "f": "Feedbacks",
+          "g": "Send review"
+        }
+      }
+    },
+    "services": {
+      "title": "Exhibitions",
+      "img": "assets/images/services-bg.png"
+    },
+    "profile": {
+      "title": "User Profile"
+    },
+    "portfolio": {
+      "title": "Portfolio"
+    },
+    "actions": [
+      {
+        "img": "assets/images/action1.jpeg",
+        "title": "Autumn at the Arayu Hot Spring By Hasui Kawase",
+        "info": {
+          "a": "-Shinobara (available)",
+          "b": "-Starting price: 1400$",
+          "c": "-Top bidder: --"
+        }
+      },
+      {
+        "img": "assets/images/action2.jpeg",
+        "title": "Snow at Ueno By Hasui Kawase",
+        "info": {
+          "a": "-Kiuomizudo (available)",
+          "b": "-Starting price: 1200$",
+          "c": "-Top bidder: Markus Persson - 1300$"
+        }
+      },
+      {
+        "img": "assets/images/action3.jpeg",
+        "title": "Autumn Leaves By Torii Kotondo",
+        "info": {
+          "a": "-Shanghai (available)",
+          "b": "-Starting price: 1500$",
+          "c": "-Top bidder: Kim Jong Un - 1549$"
+        }
+      },
+      {
+        "title": "Actions"
+      }
+    ],
+    "feedback": [
+      {
+        "title": "Feedbacks"
+      },
+      {
+        "img": "assets/images/clock.png",
+        "name": "Adam William",
+        "info": "The brushwork in this painting is just so lively and expressive. It's like the paint is dancing on the canvas."
+      },
+      {
+        "img": "assets/images/clock.png",
+        "name": "Jennete Smith",
+        "info": "The composition of this painting is really well done. The way the elements are arranged draws the eye around the canvas beautifully."
+      },
+      {
+        "img": "assets/images/clock.png",
+        "name": "Lauren Rance",
+        "info": "The texture in this painting is really impressive. It adds so much depth and dimension to the image."
+      }
+    ],
+    "review": {
+      "title": "Send Review",
+      "inputs": {
+        "title": "For sending a review, please complete this form!",
+        "name": "Name, Surname",
+        "number": "Phone number",
+        "email": "Your email",
+        "message": "Type your review!",
+        "button": "Submit"
+      },
+      "dates": {
+        "name": "Stay in touch with me:",
+        "phone": {
+          "img": "assets/images/phone.png",
+          "number": "+49 (0) 176 533 92887"
+        },
+        "mail": {
+          "img": "assets/images/mail.png",
+          "email": "peter@artisticdesigns.com"
+        }
+      },
+      "thanks": "As an artist, I have had the opportunity to work on a variety of projects that have allowed me to grow and develop my skills. One of my most memorable experiences was working on a large-scale mural for a community center. It was a challenging project, as I had to work with a team and coordinate with the center's staff to ensure that the mural met their vision and needs. However, it was also extremely rewarding to see the final product and know that it would bring joy and beauty to the community for years to come."
+    },
+    "footer": {
+      "img1": "assets/images/logo.png",
+      "img2": "assets/images/ro.png",
+      "number": "+49 (0) 176 533 92887",
+      "img3": "assets/images/instagram.png",
+      "img4": "assets/images/facebook.png"
+    }
+  }
+]
